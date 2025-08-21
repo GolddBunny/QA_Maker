@@ -82,7 +82,7 @@ const AdminMainPage = () => {
             onClick={() => handlePageClick(page.id)}
             >
             <div className="org-circle">
-                <div className="org-icon">📘</div> {/* 아이콘 변경 가능 */}
+                <div className="org-icon">📒</div> {/* 아이콘 변경 가능 */}
             </div>
             <div className="org-name">{page.name}</div>
             </div>

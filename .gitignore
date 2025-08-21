@@ -81,13 +81,23 @@ Desktop.ini
 .output/
 .git/
 frontend/.git/
-data/input/*/input
+data/input/
+data/temp_download/
+
 
 # 데이터 폴더 무시
 /frontend/public/data/
 /frontend/src/json
 /backend/context_data_*.csv
 /frontend/src/json/answer_graphml_data.json
-
+frontend/public/json/
+frontend/src/json
 # firebase
 /backend/services/firebase/qamaker-e32d7-firebase-adminsdk-fbsvc-0408d84c8c.json
+
+# Backend crawling_service 폴더 제외
+backend/services/crawling_service/
+backend/context_data_entities.csv
+backend/context_data_relationships.csv
+backend/context_data_reports.csv
+backend/context_data_sources.csv
